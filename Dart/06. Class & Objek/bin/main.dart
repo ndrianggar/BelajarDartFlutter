@@ -34,14 +34,23 @@ void main(List<String> arguments) {
   // dipanggil kelasnya
   // formatnya: namaFungsi identifier (nama aliasnya)
 
+<<<<<<< HEAD
   PersegiPanjang kotak1, kotak2; // ini edentifier setelah namaKelas
+=======
+  PersegiPanjang kotak1, kotak2;
+>>>>>>> origin/master
   double luasKotak1;
   // identifier akan null jika tidak ada objek yang ditunjuk maka akan null
   // contoh
   print(kotak1.toString()); // null
 
   // cara buat objek supaya tidak null
+<<<<<<< HEAD
   kotak1 = new PersegiPanjang(); // artinya kita membuat objek baru di persegi panjang, dan ditunjuk oleh kotak1
+=======
+
+  kotak1 = new PersegiPanjang();
+>>>>>>> origin/master
   kotak1.panjang = 2; // isi data
   kotak1.lebar =5; // isi data
 
@@ -71,7 +80,11 @@ class PersegiPanjang{
   // method(fungsi)
   double hitungLuas(){
     // tidak perlu dibuat parameter karena ada didalam class
+<<<<<<< HEAD
   return this.panjang * this.lebar; // =>    untuk mengakses nama field dari class gunakan this
+=======
+  return this.panjang * this.lebar;
+>>>>>>> origin/master
   // keyword this optional bisa ditulis bisa tidak
   }
 }
