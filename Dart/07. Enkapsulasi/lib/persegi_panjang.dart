@@ -64,4 +64,4 @@ class PersegiPanjang {
     yang tepat adalah luas(){}
  */
 
-// update
+// update 05-05-2021
