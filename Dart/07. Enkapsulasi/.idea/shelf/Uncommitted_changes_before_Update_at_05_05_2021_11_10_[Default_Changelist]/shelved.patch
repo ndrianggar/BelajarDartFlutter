@@ -1,0 +1,590 @@
+Index: ../07. Ekapsulasi -1/.idea/misc.xml
+===================================================================
+diff --git a/../07. Ekapsulasi -1/.idea/misc.xml b/../07. Ekapsulasi -1/.idea/misc.xml
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/.idea/misc.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/.idea/workspace.xml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/.idea/workspace.xml b/../07.Enkapsulasi -2/.idea/workspace.xml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/.idea/workspace.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,81 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ChangeListManager">
+-    <list default="true" id="343ebd51-a289-4c23-b6fd-6972f4f32d68" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Ekapsulasi -1/07. Ekapsulasi -1.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Enkapsulasi/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Enkapsulasi/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Enkapsulasi/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Enkapsulasi/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Enkapsulasi/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Enkapsulasi/07. Enkapsulasi.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../07. Enkapsulasi/lib/persegi_panjang.dart" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/07.Enkapsulasi -2.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../06. Class &amp; Objek/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Class &amp; Objek/bin/main.dart" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+-  </component>
+-  <component name="ProjectId" id="1s10WpkPcZV5wLID76kgsAvF7a6" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="dart.analysis.tool.window.visible" value="false" />
+-  </component>
+-  <component name="RunManager" selected="Dart Command Line App.07.Enkapsulasi -2.dart">
+-    <configuration name="07.Enkapsulasi -2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+-      <option name="filePath" value="$PROJECT_DIR$/bin/07.Enkapsulasi -2.dart" />
+-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="Tests in 07.Enkapsulasi -2" type="DartTestRunConfigurationType" factoryName="Dart Test">
+-      <option name="filePath" value="$PROJECT_DIR$" />
+-      <option name="scope" value="FOLDER" />
+-      <method v="2" />
+-    </configuration>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="343ebd51-a289-4c23-b6fd-6972f4f32d68" name="Default Changelist" comment="" />
+-      <created>1620024824485</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1620024824485</updated>
+-    </task>
+-    <servers />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/test/07.Enkapsulasi -2_test.dart
+===================================================================
+diff --git a/../07.Enkapsulasi -2/test/07.Enkapsulasi -2_test.dart b/../07.Enkapsulasi -2/test/07.Enkapsulasi -2_test.dart
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/test/07.Enkapsulasi -2_test.dart	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,8 +0,0 @@
+-import 'package:07.Enkapsulasi -2/persegi_panjang.dart';
+-import 'package:test/test.dart';
+-
+-void main() {
+-  test('calculate', () {
+-    expect(calculate(), 42);
+-  });
+-}
+Index: ../07.Enkapsulasi -2/lib/persegi_panjang.dart
+===================================================================
+diff --git a/../07.Enkapsulasi -2/lib/persegi_panjang.dart b/../07.Enkapsulasi -2/lib/persegi_panjang.dart
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/lib/persegi_panjang.dart	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,8 +0,0 @@
+-class PersegiPanjang{
+-  double panjang;
+-  double lebar;
+-
+-
+-  double hitungLuas(){
+-    return this.panjang * this.lebar;
+-  }
+\ No newline at end of file
+Index: ../07. Ekapsulasi -1/.gitignore
+===================================================================
+diff --git a/../07. Ekapsulasi -1/.gitignore b/../07. Ekapsulasi -1/.gitignore
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/.gitignore	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,13 +0,0 @@
+-# Files and directories created by pub
+-.dart_tool/
+-.packages
+-
+-# Omit commiting pubspec.lock for library packages:
+-# https://dart.dev/guides/libraries/private-files#pubspeclock
+-pubspec.lock
+-
+-# Conventional directory for build outputs
+-build/
+-
+-# Directory created by dartdoc
+-doc/api/
+Index: ../07. Ekapsulasi -1/README.md
+===================================================================
+diff --git a/../07. Ekapsulasi -1/README.md b/../07. Ekapsulasi -1/README.md
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/README.md	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,22 +0,0 @@
+-A library for Dart developers.
+-
+-Created from templates made available by Stagehand under a BSD-style
+-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+-
+-## Usage
+-
+-A simple usage example:
+-
+-```dart
+-import 'package:07. Ekapsulasi -1/07. Ekapsulasi -1.dart';
+-
+-main() {
+-  var awesome = new Awesome();
+-}
+-```
+-
+-## Features and bugs
+-
+-Please file feature requests and bugs at the [issue tracker][tracker].
+-
+-[tracker]: http://example.com/issues/replaceme
+Index: ../07. Ekapsulasi -1/lib/src/persegi_panjang.dart
+===================================================================
+diff --git a/../07. Ekapsulasi -1/lib/src/persegi_panjang.dart b/../07. Ekapsulasi -1/lib/src/persegi_panjang.dart
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/lib/src/persegi_panjang.dart	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,11 +0,0 @@
+-// TODO: Put public facing types in this file.
+-
+-/// Checks if you are awesome. Spoiler: you are.
+-class PersegiPanjang{
+-  double panjang;
+-  double lebar;
+-
+-
+-  double hitungLuas(){
+-    return this.panjang * this.lebar;
+-  }
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/README.md
+===================================================================
+diff --git a/../07.Enkapsulasi -2/README.md b/../07.Enkapsulasi -2/README.md
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/README.md	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,5 +0,0 @@
+-A sample command-line application with an entrypoint in `bin/`, library code
+-in `lib/`, and example unit test in `test/`.
+-
+-Created from templates made available by Stagehand under a BSD-style
+-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+Index: ../07.Enkapsulasi -2/.idea/modules.xml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/.idea/modules.xml b/../07.Enkapsulasi -2/.idea/modules.xml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/.idea/modules.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/07.Enkapsulasi -2.iml" filepath="$PROJECT_DIR$/07.Enkapsulasi -2.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/bin/07.Enkapsulasi -2.dart
+===================================================================
+diff --git a/../07.Enkapsulasi -2/bin/07.Enkapsulasi -2.dart b/../07.Enkapsulasi -2/bin/07.Enkapsulasi -2.dart
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/bin/07.Enkapsulasi -2.dart	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,24 +0,0 @@
+-// ketika kita ingin membuat sebuah program
+-// dan program memiliki kelas, dan kelas memiliki data yang banyak
+-// maka tidak perlu kita tampilkan keluar
+-// untuk itu kita butuh menyembunyikan bagi yang tidak penting
+-
+-// kita juga harus menjamin keamanan data tersebut, semisal;
+-// kita punya data integer maka harapan kita data tersebut diinput dengan sesuai type integer
+-// dengan demikian kita harus mengecek data tsb sesuai atau tidak
+-
+-// pada hal inilah kita buat program dengan teknik Encapsulation (Pembungkusan)
+-import 'dart:io';
+-import 'package:07.Enkapsulasi-2/lib/persegi_panjang.dart';
+-
+-void main(List<String> arguments) {
+-  PersegiPanjang kotak1, kotak2;
+-
+-  kotak1 = new PersegiPanjang(); // artinya kita membuat objek baru di persegi panjang, dan ditunjuk oleh kotak1
+-  kotak1.panjang = 2; // isi data
+-  kotak1.lebar =5; // isi data
+-
+-  kotak2 = PersegiPanjang(); // yang direkomendasikan tanpa new
+-  kotak2.panjang = double.tryParse(stdin.readLineSync());
+-  kotak2.lebar = double.tryParse(stdin.readLineSync());
+-}
+Index: ../07.Enkapsulasi -2/pubspec.yaml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/pubspec.yaml b/../07.Enkapsulasi -2/pubspec.yaml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/pubspec.yaml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,14 +0,0 @@
+-name: 07.Enkapsulasi -2
+-description: A sample command-line application.
+-# version: 1.0.0
+-# homepage: https://www.example.com
+-
+-environment:
+-  sdk: '>=2.8.1 <3.0.0'
+-
+-#dependencies:
+-#  path: ^1.7.0
+-
+-dev_dependencies:
+-  pedantic: ^1.9.0
+-  test: ^1.14.4
+Index: ../07.Enkapsulasi -2/.idea/misc.xml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/.idea/misc.xml b/../07.Enkapsulasi -2/.idea/misc.xml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/.idea/misc.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../07. Ekapsulasi -1/pubspec.yaml
+===================================================================
+diff --git a/../07. Ekapsulasi -1/pubspec.yaml b/../07. Ekapsulasi -1/pubspec.yaml
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/pubspec.yaml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,14 +0,0 @@
+-name: 07. Ekapsulasi -1
+-description: A starting point for Dart libraries or applications.
+-# version: 1.0.0
+-# homepage: https://www.example.com
+-
+-environment:
+-  sdk: '>=2.8.1 <3.0.0'
+-
+-#dependencies:
+-#  path: ^1.7.0
+-
+-dev_dependencies:
+-  pedantic: ^1.9.0
+-  test: ^1.14.4
+Index: ../07. Ekapsulasi -1/.idea/modules.xml
+===================================================================
+diff --git a/../07. Ekapsulasi -1/.idea/modules.xml b/../07. Ekapsulasi -1/.idea/modules.xml
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/.idea/modules.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/07. Ekapsulasi -1.iml" filepath="$PROJECT_DIR$/07. Ekapsulasi -1.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../07. Ekapsulasi -1/CHANGELOG.md
+===================================================================
+diff --git a/../07. Ekapsulasi -1/CHANGELOG.md b/../07. Ekapsulasi -1/CHANGELOG.md
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/CHANGELOG.md	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,3 +0,0 @@
+-## 1.0.0
+-
+-- Initial version, created by Stagehand
+Index: ../07.Enkapsulasi -2/.idea/libraries/Dart_SDK.xml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/.idea/libraries/Dart_SDK.xml b/../07.Enkapsulasi -2/.idea/libraries/Dart_SDK.xml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/.idea/libraries/Dart_SDK.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,29 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Dart SDK">
+-    <CLASSES>
+-      <root url="file://C:/dart-sdk/lib/async" />
+-      <root url="file://C:/dart-sdk/lib/cli" />
+-      <root url="file://C:/dart-sdk/lib/collection" />
+-      <root url="file://C:/dart-sdk/lib/convert" />
+-      <root url="file://C:/dart-sdk/lib/core" />
+-      <root url="file://C:/dart-sdk/lib/developer" />
+-      <root url="file://C:/dart-sdk/lib/ffi" />
+-      <root url="file://C:/dart-sdk/lib/html" />
+-      <root url="file://C:/dart-sdk/lib/indexed_db" />
+-      <root url="file://C:/dart-sdk/lib/io" />
+-      <root url="file://C:/dart-sdk/lib/isolate" />
+-      <root url="file://C:/dart-sdk/lib/js" />
+-      <root url="file://C:/dart-sdk/lib/js_util" />
+-      <root url="file://C:/dart-sdk/lib/math" />
+-      <root url="file://C:/dart-sdk/lib/mirrors" />
+-      <root url="file://C:/dart-sdk/lib/svg" />
+-      <root url="file://C:/dart-sdk/lib/typed_data" />
+-      <root url="file://C:/dart-sdk/lib/wasm" />
+-      <root url="file://C:/dart-sdk/lib/web_audio" />
+-      <root url="file://C:/dart-sdk/lib/web_gl" />
+-      <root url="file://C:/dart-sdk/lib/web_sql" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/analysis_options.yaml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/analysis_options.yaml b/../07.Enkapsulasi -2/analysis_options.yaml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/analysis_options.yaml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,14 +0,0 @@
+-# Defines a default set of lint rules enforced for
+-# projects at Google. For details and rationale,
+-# see https://github.com/dart-lang/pedantic#enabled-lints.
+-include: package:pedantic/analysis_options.yaml
+-
+-# For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
+-# Uncomment to specify additional rules.
+-# linter:
+-#   rules:
+-#     - camel_case_types
+-
+-analyzer:
+-#   exclude:
+-#     - path/to/excluded/files/**
+Index: ../07. Ekapsulasi -1/.idea/vcs.xml
+===================================================================
+diff --git a/../07. Ekapsulasi -1/.idea/vcs.xml b/../07. Ekapsulasi -1/.idea/vcs.xml
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/.idea/vcs.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/.gitignore
+===================================================================
+diff --git a/../07.Enkapsulasi -2/.gitignore b/../07.Enkapsulasi -2/.gitignore
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/.gitignore	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,9 +0,0 @@
+-# Files and directories created by pub
+-.dart_tool/
+-.packages
+-
+-# Conventional directory for build outputs
+-build/
+-
+-# Directory created by dartdoc
+-doc/api/
+Index: ../07. Ekapsulasi -1/analysis_options.yaml
+===================================================================
+diff --git a/../07. Ekapsulasi -1/analysis_options.yaml b/../07. Ekapsulasi -1/analysis_options.yaml
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/analysis_options.yaml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,14 +0,0 @@
+-# Defines a default set of lint rules enforced for
+-# projects at Google. For details and rationale,
+-# see https://github.com/dart-lang/pedantic#enabled-lints.
+-include: package:pedantic/analysis_options.yaml
+-
+-# For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
+-# Uncomment to specify additional rules.
+-# linter:
+-#   rules:
+-#     - camel_case_types
+-
+-analyzer:
+-#   exclude:
+-#     - path/to/excluded/files/**
+Index: ../07.Enkapsulasi -2/CHANGELOG.md
+===================================================================
+diff --git a/../07.Enkapsulasi -2/CHANGELOG.md b/../07.Enkapsulasi -2/CHANGELOG.md
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/CHANGELOG.md	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,3 +0,0 @@
+-## 1.0.0
+-
+-- Initial version, created by Stagehand
+Index: ../07. Ekapsulasi -1/07. Ekapsulasi -1.iml
+===================================================================
+diff --git a/../07. Ekapsulasi -1/07. Ekapsulasi -1.iml b/../07. Ekapsulasi -1/07. Ekapsulasi -1.iml
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/07. Ekapsulasi -1.iml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="WEB_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+-      <excludeFolder url="file://$MODULE_DIR$/build" />
+-      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+-    </content>
+-    <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" name="Dart SDK" level="project" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/07.Enkapsulasi -2.iml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/07.Enkapsulasi -2.iml b/../07.Enkapsulasi -2/07.Enkapsulasi -2.iml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/07.Enkapsulasi -2.iml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="WEB_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+-      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+-      <excludeFolder url="file://$MODULE_DIR$/build" />
+-    </content>
+-    <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" name="Dart SDK" level="project" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: ../07.Enkapsulasi -2/.idea/vcs.xml
+===================================================================
+diff --git a/../07.Enkapsulasi -2/.idea/vcs.xml b/../07.Enkapsulasi -2/.idea/vcs.xml
+deleted file mode 100644
+--- a/../07.Enkapsulasi -2/.idea/vcs.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../07. Ekapsulasi -1/.idea/.gitignore
+===================================================================
+diff --git a/../07. Ekapsulasi -1/.idea/.gitignore b/../07. Ekapsulasi -1/.idea/.gitignore
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/.idea/.gitignore	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../07. Ekapsulasi -1/example/07. Ekapsulasi -1_example.dart
+===================================================================
+diff --git a/../07. Ekapsulasi -1/example/07. Ekapsulasi -1_example.dart b/../07. Ekapsulasi -1/example/07. Ekapsulasi -1_example.dart
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/example/07. Ekapsulasi -1_example.dart	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,6 +0,0 @@
+-import 'package:07. Ekapsulasi -1/07. Ekapsulasi -1.dart';
+-
+-void main() {
+-  var awesome = Awesome();
+-  print('awesome: ${awesome.isAwesome}');
+-}
+Index: ../07. Ekapsulasi -1/.idea/libraries/Dart_SDK.xml
+===================================================================
+diff --git a/../07. Ekapsulasi -1/.idea/libraries/Dart_SDK.xml b/../07. Ekapsulasi -1/.idea/libraries/Dart_SDK.xml
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/.idea/libraries/Dart_SDK.xml	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,29 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Dart SDK">
+-    <CLASSES>
+-      <root url="file://C:/dart-sdk/lib/async" />
+-      <root url="file://C:/dart-sdk/lib/cli" />
+-      <root url="file://C:/dart-sdk/lib/collection" />
+-      <root url="file://C:/dart-sdk/lib/convert" />
+-      <root url="file://C:/dart-sdk/lib/core" />
+-      <root url="file://C:/dart-sdk/lib/developer" />
+-      <root url="file://C:/dart-sdk/lib/ffi" />
+-      <root url="file://C:/dart-sdk/lib/html" />
+-      <root url="file://C:/dart-sdk/lib/indexed_db" />
+-      <root url="file://C:/dart-sdk/lib/io" />
+-      <root url="file://C:/dart-sdk/lib/isolate" />
+-      <root url="file://C:/dart-sdk/lib/js" />
+-      <root url="file://C:/dart-sdk/lib/js_util" />
+-      <root url="file://C:/dart-sdk/lib/math" />
+-      <root url="file://C:/dart-sdk/lib/mirrors" />
+-      <root url="file://C:/dart-sdk/lib/svg" />
+-      <root url="file://C:/dart-sdk/lib/typed_data" />
+-      <root url="file://C:/dart-sdk/lib/wasm" />
+-      <root url="file://C:/dart-sdk/lib/web_audio" />
+-      <root url="file://C:/dart-sdk/lib/web_gl" />
+-      <root url="file://C:/dart-sdk/lib/web_sql" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: ../07. Ekapsulasi -1/test/main.dart
+===================================================================
+diff --git a/../07. Ekapsulasi -1/test/main.dart b/../07. Ekapsulasi -1/test/main.dart
+deleted file mode 100644
+--- a/../07. Ekapsulasi -1/test/main.dart	(revision e60071650992ee01700fb9edb5529f947861902a)
++++ /dev/null	(revision e60071650992ee01700fb9edb5529f947861902a)
+@@ -1,5 +0,0 @@
+-import 'package:';
+-
+-void main() {
+-
+-}
