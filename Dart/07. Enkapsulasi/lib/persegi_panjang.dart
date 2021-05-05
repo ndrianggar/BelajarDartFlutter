@@ -63,3 +63,5 @@ class PersegiPanjang {
     3. contoh pembuatan nama method dengan nama hitungluas(){} ini tidak tepat
     yang tepat adalah luas(){}
  */
+
+// update

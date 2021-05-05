@@ -43,3 +43,5 @@ PersegiPanjang kotak1, kotak2;
     3. contoh pembuatan nama method dengan nama hitungluas(){} ini tidak tepat
     yang tepat adalah luas(){}
  */
+
+// update

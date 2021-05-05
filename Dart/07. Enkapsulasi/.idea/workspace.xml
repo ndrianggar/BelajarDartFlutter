@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15b42fc0-8708-4c26-b201-7391ec731197" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/07. Ekapsulasi -1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/example/07. Ekapsulasi -1_example.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/lib/src/persegi_panjang.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07. Ekapsulasi -1/test/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/persegi_panjang.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/persegi_panjang.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/07.Enkapsulasi -2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/bin/07.Enkapsulasi -2.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/lib/persegi_panjang.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.Enkapsulasi -2/test/07.Enkapsulasi -2_test.dart" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_05_2021_11_10_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_05_2021_11_10__Default_Changelist_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620027297037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update File persegi_panjang.dart dan main">
+      <created>1620187819113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620187819113</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update File persegi_panjang.dart dan main">
+      <created>1620187920358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620187920358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="07. Encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="07. Encapsulation" />
+    <MESSAGE value="Update File persegi_panjang.dart dan main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update File persegi_panjang.dart dan main" />
   </component>
 </project>
