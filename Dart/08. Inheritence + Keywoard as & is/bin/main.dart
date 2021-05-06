@@ -48,6 +48,8 @@ void main(List<String> arguments) {
       }
     }
 
+    monsters.forEach((element) {print(element);}); // bisa melooping dengan keywoard forEach
+
     // contoh 2 kasus jika ingin menampilkan kelas tertentu tanpa if
     // maka gunakan as
 
