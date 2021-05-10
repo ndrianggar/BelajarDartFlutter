@@ -6,6 +6,13 @@
 * */
 
 import 'dart:io';
+
+      /*Apa perbedaan interface menggunakan implement
+      * dan abstract class menggunakan extends
+      *
+      *
+      * */
+
 /*ABSTRACT CLASS
 * Sebagai contoh analogi pada bentuk segitiga, kotak, persegi panjang
 * ini semua dinamakan dengan bangun datar kenapa karena masing2 memiliki luas
@@ -49,11 +56,6 @@ void main(List<String> arguments) {
       // Syuung
       // Terbang terbang melayang
 
-      /*Apa perbedaan interface menggunakan implement
-      * dan abstract class menggunakan extends
-      *
-      *
-      * */
     }
 
 
