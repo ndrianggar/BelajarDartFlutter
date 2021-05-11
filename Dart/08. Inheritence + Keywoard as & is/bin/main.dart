@@ -7,57 +7,74 @@
 
 import 'dart:io';
 
-      /*Apa perbedaan interface menggunakan implement
-      * dan abstract class menggunakan extends
-      *
-      *
-      * */
-
-/*ABSTRACT CLASS
-* Sebagai contoh analogi pada bentuk segitiga, kotak, persegi panjang
-* ini semua dinamakan dengan bangun datar kenapa karena masing2 memiliki luas
-* setiap sesuatu yang menjadi template maka dia abstract class
-*
-* 1. Bedanya sebuah class hanya bisa extends atau turunan hanya dari 1 class saja
-* 2. Bedanya implement bisa diturunkan di banyak class
-* */
-
-
-/*INTERFACE
-* ialah kumpulan2 property atau methode yang bukan untuk diturunkan
-* tetapi yang harus dimiliki bagi kelas yang mengimplementasikannya
-*
-* di dart tidak ada interface yang ada abstract class yang dibuat kumpulan2
-* property dan method
-* */
-
-import '../lib/flying_monster.dart';
+import '../lib/hero.dart';
 import '../lib/monster.dart';
 import '../lib/monster_kecoa.dart';
 import '../lib/monster_ubur_ubur.dart';
-import '../lib/monster_ucoa.dart';
 void main(List<String> arguments) {
- //  Monster monsters = Monster(); // sudah tidak dibuat karena sudah menggunakan abstract class
+  Hero h = Hero();
+  Monster m = Monster(); // m setelah kata Monster itu ialah identifier atau nama pendek
+  // artinya identifier itu yang menunjuk kesebuah objek yg ada setelahnya
+  MonsterKecoa mk = MonsterKecoa();
+  MonsterUburUbur muu = MonsterUburUbur();
+
   List<Monster> monsters = [];
 
   monsters.add(MonsterUburUbur());
   monsters.add(MonsterKecoa());
-  monsters.add(MonsterUcoa());
+  monsters.add(MonsterUburUbur());
 
-    for(Monster m in monsters){
-      // if(m is MonsterUburUbur) {
-      //   print("ubur2 sedang : " + m.eatHuman());
-      // }else if(m is MonsterKecoa) {
-      //   print("Kecoa sedang : " + m.eatHuman());
-      if(m is FlyingMonster){
-        print((m as FlyingMonster).fly());
-      }
-      // dari kode diatas akan mencetak
-      // Syuung
-      // Terbang terbang melayang
+  // bisa dengan for standar length
+  // for (int i = 0; i < monsters.length; i++) {
+  //   print(m.eatHuman());
+  // }
 
+  // bisa dengan for mirip for each
+  // for (Monster m in monsters) {
+  //   print(m.eatHuman());
+  // }
+
+  // bisa dengan for inisiasi bisa diluar
+  // int nilai = 0;
+  // for (; nilai < 3; nilai++) {
+  //   print(m.eatHuman());
+  // }
+
+  // contoh 1 kasus kalau yang ingin ditampilkan hanya 1 monster ?
+  // maka gunakan if(m is namaKelas){}
+  for(Monster m in monsters){
+    if(m is MonsterUburUbur){ // jangan menggunakan if (identifier == namaKelas)
+      print("ubur2 makan " + m.eatHuman());
     }
+  }
+
+  monsters.forEach((element) {print(element);}); // bisa melooping dengan keywoard forEach
+
+  // contoh 2 kasus jika ingin menampilkan kelas tertentu tanpa if
+  // maka gunakan as
+
+  // print((m as MonsterUburUbur).swim());
+  // penjelasan as digunakan untuk menyamakan antara objek 1 dengan objek lain
+  // akan tetapi harus dibuat diobjek persamaan tersebut baru diturunkan
+
+  // akan ada error
+  /*
+    type 'Monster' is not a subtype of type 'MonsterUburUbur' in type cast
+    error terjadi karena pada pembuatan objek m itu untuk type monster bukan
+    type yang dicari(maksudnya Objek MonsterUbur2)
+    -- Solusinya rubah identifier Monster m = Monster() menjadi MonsterUburubur)
+    * */
+
+  // CONTOH UNTUK IMPLEMENTASI METHOD KELAS KETIKA DIGUNAKAN DIBANYAK KELAS
+  // h.healtPoint = -10;
+  // m.healtPoint = 10;
+  // mk.healtPoint = 9;
+  // muu.healtPoint = -1;
 
 
+  // print("hero HP: " + h.healtPoint.toString());
+  // print("monster HP : " + m.healtPoint.toString());
+  // print("monster mk : " + mk.healtPoint.toString());
+  // print("monster muu : " + muu.healtPoint.toString());
 
 }
