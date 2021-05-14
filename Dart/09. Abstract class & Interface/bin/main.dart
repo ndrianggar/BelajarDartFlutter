@@ -5,7 +5,6 @@
 *
 * */
 
-import 'dart:io';
 
       /*Apa perbedaan interface menggunakan implement
       * dan abstract class menggunakan extends
@@ -36,6 +35,7 @@ import '../lib/monster.dart';
 import '../lib/monster_kecoa.dart';
 import '../lib/monster_ubur_ubur.dart';
 import '../lib/monster_ucoa.dart';
+
 void main(List<String> arguments) {
  //  Monster monsters = Monster(); // sudah tidak dibuat karena sudah menggunakan abstract class
   List<Monster> monsters = [];
