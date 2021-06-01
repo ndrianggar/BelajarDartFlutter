@@ -10,7 +10,6 @@ class Person {
 
   void takeRest() {
     // buat kondisi jika doingHobbynya tidak sama dengan null maka lakukan ini
-
     if (doingHobby != null) {
       doingHobby(name);
     }
