@@ -4,7 +4,7 @@ import 'dart:io';
 * Kesimpulan pelajaran no 09:
 *
 * pada kelas yang diset sebagai interface maka dia harus
-* mengimplementasi behavier (perilaku) dari kelas tersebut
+* mengimplementasi behavior (perilaku) dari kelas tersebut
 *
 * Mixin mirip dengan interface
 * Mixin itu menambahkan bukan memaksakan (seperti plugin)

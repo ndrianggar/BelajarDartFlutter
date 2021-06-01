@@ -2,10 +2,16 @@ class Person {
   String name;
 
   Person({String name = 'no name'}) {
-    print("Constructor Person");
+    // print('Constructor Person'); // cara mengetahui pemanggilan cunstroctor
     this.name = name;
 
     /*
+      + jika parameter tidak memiliki deklarasi dari maka akan error (artinya memaksa untuk memberikan paramater), 
+      BENTUK ERRORNYA
+
+  "The superclass 'Person' doesn't have a zero argument constructor.""
+
+      solusinya ialah dengan menggunakan named parameter / optional parameter pada kelas turunannya
       jika ingin menggunakan funtion named parameter 
       Person({String name});
 
@@ -19,7 +25,7 @@ class Person {
 
     // name = "no name";
 
-    // print("sedang membuat objek persin");
+    // print("sedang membuat objek person");
     /*
      * Cara memberikan parameter pada constructor dengan attribute yang ada 
      * di kelas maka dengan cara memberikan Person(String name){
