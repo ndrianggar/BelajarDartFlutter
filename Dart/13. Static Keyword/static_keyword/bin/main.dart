@@ -5,11 +5,11 @@ void main(List<String> arguments) {
 
   print(Person.maxAge); // keluarnya 150, karena kita batasi 150
 
-  print(p);
+  print(p);    
 
   /**
  print(p.maxAge); ini akan terjadi error, karena maxAge bukan milik kelas p, 
- melainkan person
+ melainkasn person
 
 Static field 'maxAge' can't be accessed through an instance.
 Try using the class 'Person' to access th
