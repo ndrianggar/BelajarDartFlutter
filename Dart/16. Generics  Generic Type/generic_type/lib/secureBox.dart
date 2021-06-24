@@ -1,0 +1,14 @@
+
+// cara membuat generic type dengan format:
+/*  
+  keywoardclass NamaKelas <Jenisnyaapa/typedatanya>
+
+ */
+class SecureBox<T> {
+  final T _data;
+  final String _pin;
+
+  SecureBox(this._data, this._pin);
+
+  T getData(String pin) => (pin == _pin) ? _data : null;
+}

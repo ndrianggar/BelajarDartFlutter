@@ -73,7 +73,7 @@
  * 1. tidak perlu buat objek berulang-ulang
  * 2. lebih irit memory
  * 3. constanta dibuat pada saat compile time bukan run time
- * 4. 
+ *
  */
 const pi = 2.5; // => variable global
 
@@ -91,6 +91,8 @@ void main(List<String> arguments) {
   print(identical(c, d));
 
   print('ini hasil ${a}');
+
+  print(RegulerClass(number: 12));
 }
 
 class RegulerClass {
