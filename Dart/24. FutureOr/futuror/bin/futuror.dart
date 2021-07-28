@@ -1,4 +1,4 @@
-// Futuror dapat mengakomodir tipe kembalian integer / Future Integer
+// Futuror dapat mengakomodir tipe kembalian integer / kembalian tipe data lainnya
 import 'dart:async';
 
 void main(List<String> arguments) async {
