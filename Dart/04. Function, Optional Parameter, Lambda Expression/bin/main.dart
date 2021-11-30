@@ -35,10 +35,26 @@ double luasSegiEmpat(double panjang, double lebar){
   //return hasil;
 }
 
-// OPTIONAL PARAMETER(NAMED PARAMETERS)
+// Named Optional Parameter
+// Named OPTIONAL PARAMETER(NAMED PARAMETERS)
 // gunakan {} untuk membuat optional - named parameters.
+
+
 // Contoh definisi fungsi:
 
+// void cetakPesan(String pesan, {int counter:1, String akhirPesan:""}) {
+//  for(int i=0; i < counter; i++) {
+//    print(pesan + akhirPesan);
+//  }
+// }
+
+/*
+cetakPesan("Hello Dart"); // OK
+cetakPesan("Hello Dart", counter:2, akhirPesan:"!"); // OK
+cetakPesan("Hello Dart", counter:2); // OK
+cetakPesan("Hello Dart", akhirPesan: "!"); // OK, walaupun tidak berurutan
+cetakPesan("Hello Dart", akhirPesan: "!", counter: 2); // OK, walaupun tidak sesuai urutan
+*/
 // void enableFlags({bool bold, bool hidden}){
 // ....
 //}
@@ -49,7 +65,7 @@ double luasSegiEmpat(double panjang, double lebar){
 
 
 // OPTIONAL PARAMETER(POSITIONAL PARAMETERS)
-// gunakan [] untuk membuat optional - Potional Parameters.
+// gunakan [] untuk membuat optional - Potional Parameters. / Posisitional Optional Parameter didefenisikan menggunakan kurung siku [] pada saat membuat fungsi
 // String say(String from, String messages, [String to, String appName]){
 // ....
 // }
@@ -183,3 +199,62 @@ void main(List<String> arguments) {
   // print lambada expresion
   print(doMathOperator(4, 4, (a,b) => a+b));
 }
+
+
+/*
+Fungsi sebagai First-Class Citizens
+Ketika dalam suatu bahasa pemrograman mendukung fungsi sebagai First-Class Citizens, artinya adalah sebagai berikut:
+Fungsi dapat diacu (referred) menggunakan namanya didalam program.
+Fungsi dapat digunakan sebagai argumen ke fungsi lainnya.
+Fungsi dapat dikembalikan sebagai hasil dari fungsi lainnya.
+Fungsi dapat digunakan dalam struktur data / Collections.
+Empat hal tersebut didukung dalam pemrograman Dart, fungsi dalam dart tidak hanya dipanggil saja tetapi dapat juga dijadikan nilai argumen fungsi lainnya, perhatikan contoh berikut:
+
+void cetakPesan(String pesan, modifPesan) {
+  print(modifPesan(pesan));
+}
+
+String myModif(String pesan) => pesan + " modifed !";
+
+void main() {
+  cetakPesan("Hello", myModif);
+}
+
+
+
+Pada saat pemanggilan cetakPesan("Hello", myModif);
+
+Maka parameter cetakPesan akan mengacu ke fungsi myModif, dimana fungsi ini memiliki 1 buah parameter.
+Sehinga perintah modifPesan(pesan) dapat diterjemahkan menjadi myModif("Hello"), dimana hasilnya adalah "Hello modified !".
+Dengan demikan print(modifPesan("Hello") akan mengacu print(myModif("Hello")), dimana hasil dari myModif("Hello") adalah Hello modified !.
+Sehingga dapat juga menjadi print("Hello modified !") oleh fungsi cetakPesan. 
+
+
+Fungsi didalam Fungsi
+
+Dalam pemrograman dart, fungsi dapat juga dideklarasikan dalam fungsi lainnya, perhatikan contoh berikut:
+
+void cetakPesan(String pesan, modifPesan) {
+  print(modifPesan(pesan));
+}
+
+String myModif(String pesan) => pesan + " modifed !";
+
+void main() {
+  cetakPesan("Hello", myModif);
+  cetakPesan("Hello", (String s) => s.toUpperCase()); // anonymous fungsi
+}
+
+jika kita perhatikan potongan kode
+
+(String s) => s.toUpperCase()
+
+Sepintas ini cukup membingungkan, untuk mengerti anonymous fungsi, cukup mudah, perhatikan contoh berikut:
+
+String capital (String s) => s.toUpperCase(); // fungsi capital
+
+Untuk membuatnya menjadi anonymous fungsi, cukup menghapus nama fungsinya menjadi:
+
+(String s) => s.toUpperCase();
+
+*/
